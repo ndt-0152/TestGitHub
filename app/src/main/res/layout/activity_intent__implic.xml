@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intent_Implic"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:src="@drawable/firefox1213"
+        android:id="@+id/imgFireFox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="doAction"
+        >
+
+    </ImageView>
+    <ImageView
+        android:src="@drawable/message1242"
+        android:id="@+id/imgMessage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="doAction"
+        >
+
+    </ImageView>
+    <ImageView
+        android:src="@drawable/phone3124124"
+        android:id="@+id/imgPhone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="doAction"
+        >
+
+    </ImageView>
+
+</LinearLayout>
